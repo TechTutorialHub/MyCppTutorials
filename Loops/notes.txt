@@ -1,0 +1,25 @@
+C++ loops
+  for
+  while
+  do-while
+
+Syntax:
+
+For Loop 
+  
+for (initialization; condition; update) {
+    // code to be executed in each iteration
+}
+
+While Loop
+
+while (condition) {
+    // code to be executed as long as the condition is true
+}
+
+
+Do-While Loop
+
+do {
+    // code to be executed
+} while (condition);

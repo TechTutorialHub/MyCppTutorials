@@ -12,13 +12,15 @@ int main() {
         cout << "MENU \n";
         cout << "1. Display Odd Numbers: \n";
         cout << "2. Display Even Numbers: \n";
+        cout << "3. Exit\n";
         cout << "Enter your choice: (1 and 2) ";
         cin >> choice;
         
-        cout << "Enter lower and upper limit ";
-        cin >> lowerlimit >> upperlimit;
-        
+      
         if (choice == 1) {
+            cout << "Enter lower and upper limit ";
+            cin >> lowerlimit >> upperlimit;
+        
             cout << "Odd numbers from " << lowerlimit << " to " << upperlimit << endl;
             for (int i = lowerlimit; i<= upperlimit; i++){
                 if (i % 2 != 0){
@@ -28,6 +30,9 @@ int main() {
             cout << endl;
             
         }else if (choice == 2){
+            cout << "Enter lower and upper limit ";
+            cin >> lowerlimit >> upperlimit;
+        
             cout << "Even numbers from " << lowerlimit << " to " << upperlimit << endl;
             for (int i = lowerlimit; i<= upperlimit; i++){
                 if (i % 2 == 0){
@@ -35,9 +40,11 @@ int main() {
                 }
             }
             cout << endl;
+        }else if (choice==3){
+            exit(1);
         }else{
             cout << "Invalid choice: Press 1 and 2 only "<< endl;
-            continue;
+            //continue;
         }
         
         cout << "Try again (Y/N) ";

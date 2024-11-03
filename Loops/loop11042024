@@ -1,0 +1,16 @@
+#include <iostream> 
+using namespace std; 
+int main() { 
+    cout << "Numbers from 1 to 20 (skipping multiples of 3, stopping at 15):" << endl; 
+    for (int i = 1; i <= 20; i++) { 
+        if (i % 3 == 0) { 
+            continue; // Skip multiples of 3 
+        } 
+        if (i == 15) { 
+            break; // Stop the loop at 15 
+        } 
+        cout << i << " "; 
+    } 
+    cout << endl; 
+    return 0; 
+} 

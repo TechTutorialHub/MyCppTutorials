@@ -2,6 +2,10 @@ Download Codes here:
 
 https://github.com/TechTutorialHub/MyCppTutorials
 
+Functions
+
+Functions are blocks of code that perform specific tasks. They allow us to break down complex programs into smaller, manageable sections, making our code more modular and reusable. In C++, functions are typically written outside the main function, then called within the main function or other parts of the program. 
+
 
 Different types of functions
 
@@ -9,3 +13,4 @@ Function (No Argument and No Return Value)
 Function (No Argument but Return Value)
 Function (Argument but No Return Value)
 Function (Argument and Return Value)
+
